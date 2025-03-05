@@ -2,12 +2,12 @@ import streamlit as st
 import yfinance as yf
 import plotly.graph_objects as go
 
-# Beschikbare indices
+# Beschikbare indices (MSCI World vervangen door URTH)
 indices = {
     "S&P 500": "^GSPC",
     "Dow Jones": "^DJI",
     "Nasdaq": "^IXIC",
-    "MSCI World": "^MSCI",
+    "MSCI World (via URTH ETF)": "URTH",
     "VIX (Volatility Index)": "^VIX"
 }
 
